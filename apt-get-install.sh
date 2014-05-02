@@ -3,6 +3,7 @@ set -x
 sudo apt-get update
 
 #basic dev tools
+sudo apt-get -y install zsh 
 sudo apt-get -y install git
 sudo apt-get -y install tig
 sudo apt-get -y install vim 
