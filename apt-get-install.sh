@@ -4,6 +4,7 @@ sudo apt-get update
 
 #basic dev tools
 sudo apt-get install git
+sudo apt-get install tig
 sudo apt-get install vim 
 sudo apt-get install ack
 sudo apt-get install wget 
