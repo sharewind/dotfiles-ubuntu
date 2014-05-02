@@ -48,7 +48,7 @@ ZSH_THEME="robbyrussell"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git z common-aliases command-not-found)
+plugins=(git common-aliases command-not-found encode64 urltools s z golang history python)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -72,3 +72,33 @@ export PATH="/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
+
+#ulimit 
+ulimit -n 1048576
+alias ppgrep='ps aux|grep'
+#alias lh='ls -a | egrep "^\."'
+#alias lh='ls -l .??*'
+alias ll='ls -alh'
+alias lld='ll|grep "^d"'
+alias llf='ll|grep -v "^d"'
+alias lh='ll -d .[^.]*'
+alias lhd='ll -d .[^.]*|grep "^d"'
+alias lhf='ll -d .[^.]*|grep -v "^d"'
+#alias wget='curl -O'
+alias gs='git status'
+alias vimrc='vi ~/.vimrc'
+alias reload='source ~/.zshrc'
+alias sredis='sh /opt/scripts/redis/redis.sh start'
+alias stredis='sh /opt/scripts/redis/redis.sh stop'
+alias smongo='sh /opt/scripts/mongodb/mongodb.sh start'
+
+export ANDROID_HOME=/opt/apps/adt/sdk
+export GOROOT=/opt/apps/go
+export GOPATH=~/go
+export ZHOME=/opt/tools/z
+export GRADLE_HOME=/opt/apps/gradle-1.10
+export MONGODB=/opt/apps/mongodb
+export PATH=$GOROOT/bin:$GOPATH/bin:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ZHOME:$GRADLE_HOME/bin:$MONGODB/bin:$PATH
+
+
+

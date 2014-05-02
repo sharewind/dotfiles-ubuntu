@@ -10,6 +10,9 @@ sudo apt-get install ack
 sudo apt-get install wget 
 sudo apt-get install curl 
 
+#build stuff
+sudo apt-get install build-essential 
+
 #ssh 
 sudo apt-get install openssh-server
 

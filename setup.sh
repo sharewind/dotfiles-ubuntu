@@ -1,4 +1,6 @@
 #!/bin/sh
 set -x
 
-ssh-keygen 
+ln -sf ~/projects/dotfiles-ubuntu/.zshrc ~/.zshrc
+
+#ssh-keygen 
