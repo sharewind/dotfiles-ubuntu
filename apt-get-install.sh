@@ -3,20 +3,23 @@ set -x
 sudo apt-get update
 
 #basic dev tools
-sudo apt-get install git
-sudo apt-get install tig
-sudo apt-get install vim 
-sudo apt-get install tmux
-sudo apt-get install ack
-sudo apt-get install wget 
-sudo apt-get install curl 
+sudo apt-get -y install git
+sudo apt-get -y install tig
+sudo apt-get -y install vim 
+sudo apt-get -y install tmux
+sudo apt-get -y install ack
+sudo apt-get -y install wget 
+sudo apt-get -y install curl 
 
 #build stuff
-sudo apt-get install build-essential 
+sudo apt-get -y install build-essential 
+
+#programming stuff
+sudo apt-get -y install ipython
 
 #ssh 
-sudo apt-get install openssh-server
+sudo apt-get -y install openssh-server
 
 #sysstat
-sudo apt-get install ifstat
-sudo apt-get install sysstat
+sudo apt-get -y install ifstat
+sudo apt-get -y install sysstat
