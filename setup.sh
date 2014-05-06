@@ -4,7 +4,7 @@ CUR_DIR="`pwd`"
 
 # config zsh 
 ln -sf ~/projects/dotfiles-ubuntu/.zshrc ~/.zshrc
-source ~/.zshrc
+#source ~/.zshrc
 
 #set timezone
 sudo ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime 
