@@ -3,12 +3,12 @@ set -x
 CUR_DIR="`pwd`"
 
 # config zsh 
-ln -sf ~/projects/dotfiles-ubuntu/.zshrc ~/.zshrc
+ln -sf $CUR_DIR/.zshrc ~/.zshrc
 #source ~/.zshrc
 
 #set timezone
 sudo ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime 
-sudo ntpdate cn.pool.ntp.org
+#sudo ntpdate cn.pool.ntp.org
 
 #config sysctl
 sudo ln -sf $CUR_DIR/etc/sysctl.conf /etc/sysctl.conf 
