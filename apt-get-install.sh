@@ -7,10 +7,11 @@ sudo apt-get -y install zsh
 sudo apt-get -y install git
 sudo apt-get -y install tig
 sudo apt-get -y install vim 
+sudo apt-get -y install ctags vim-doc vim-scripts
 sudo apt-get -y install tmux
 sudo apt-get -y install ack
-sudo apt-get -y install wget 
 sudo apt-get -y install curl 
+sudo apt-get -y install wget 
 
 #build stuff
 sudo apt-get -y install build-essential 

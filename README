@@ -1,0 +1,5 @@
+
+
+####install 
+
+wget --no-check-certificate https://raw.githubusercontent.com/sharewind/dotfiles-ubuntu/master/apt-get-install.sh -O - |sh
