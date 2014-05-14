@@ -13,7 +13,7 @@ sudo apt-get -y install vim
 sudo apt-get -y install ctags vim-doc vim-scripts
 sudo apt-get -y install tmux
 sudo apt-get -y install terminator
-sudo apt-get -y install ack
+sudo apt-get -y install ack-grep
 sudo apt-get -y install curl 
 sudo apt-get -y install wget 
 
