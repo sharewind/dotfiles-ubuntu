@@ -1,0 +1,1 @@
+apt-get purge libreoffice* empathy evolution* gnome-mahjongg aisleriot gnome-mines gnome-sudoku ubuntuone* thunderbird* gwibber* xterm landscape-client-ui-install unity-common unity-asset-pool lightdm unity-greeter xdiagnose webbrowser-app
