@@ -16,6 +16,9 @@ sudo apt-get -y install wget
 
 #build stuff
 sudo apt-get -y install build-essential 
+sudo apt-get -y install mercurial #for goget
+#sudo apt-get -y install ia32-libs
+sudo apt-get -y install primus-libs-ia32
 
 #programming stuff
 sudo apt-get -y install ipython

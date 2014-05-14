@@ -12,6 +12,7 @@ sudo ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 
 #config sysctl
 sudo ln -sf $CUR_DIR/etc/sysctl.conf /etc/sysctl.conf 
+sudo ln -sf $CUR_DIR/etc/security/limits.conf /etc/security/limits.conf
 
 sudo ln -sf $CUR_DIR/.tmux.conf ~/.tmux.conf
 

@@ -92,13 +92,12 @@ alias sredis='sh /opt/scripts/redis/redis.sh start'
 alias stredis='sh /opt/scripts/redis/redis.sh stop'
 alias smongo='sh /opt/scripts/mongodb/mongodb.sh start'
 
+export JAVA_HOME=/opt/apps/jdk
+export CLASSPATH=./:$JAVA_HOME/lib:$JAVA_HOME/lib/tools.jar
 export ANDROID_HOME=/opt/apps/adt/sdk
+export ANT_HOME=/opt/apps/ant
 export GOROOT=/opt/apps/go
 export GOPATH=~/go
-export ZHOME=/opt/tools/z
 export GRADLE_HOME=/opt/apps/gradle-1.10
 export MONGODB=/opt/apps/mongodb
-export PATH=$GOROOT/bin:$GOPATH/bin:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ZHOME:$GRADLE_HOME/bin:$MONGODB/bin:$PATH
-
-
-
+export PATH=$GOROOT/bin:$GOPATH/bin:$JAVA_HOME/bin:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANT_HOME/bin:$GRADLE_HOME/bin:$MONGODB/bin:$PATH
