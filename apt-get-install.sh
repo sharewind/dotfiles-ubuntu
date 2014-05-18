@@ -29,11 +29,21 @@ sudo apt-get -y install ipython
 # sysstat
 sudo apt-get -y install sysstat
 sudo apt-get -y install dstat
+sudo apt-get -y install htop
+
 sudo apt-get -y install ifstat
+# sudo apt-get -y install iftop
+sudo apt-get -y install ngrep #better tcpdump 
+
+sudo apt-get -y install traceroute
+sudo apt-get -y install mtr #traceroute + ping
+sudo apt-get -y install nmap
+# sudo apt-get -y install dig
 # sudo apt-get -y install vnstat
 # sudo apt-get -y install iptraf-ng
 # sudo apt-get -y install ntop
-sudo apt-get -y install ngrep #better tcpdump 
-sudo apt-get -y traceroute
-sudo apt-get -y install mtr #traceroute + ping
+# sudo apt-get -y install hping3 #advanced ping 
 
+#rar
+# sudo apt-get -y install rar
+# sudo apt-get -y install unrar
