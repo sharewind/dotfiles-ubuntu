@@ -87,7 +87,13 @@ alias lhf='ll -d .[^.]*|grep -v "^d"'
 alias ack='ack-grep'
 #alias wget='curl -O'
 alias netls='netstat -t -lnp'
+
 alias gs='git status'
+alias gpom='git push origin master'
+alias glom='git pull origin master'
+alias gpod='git push origin dev'
+alias glod='git pull origin dev'
+
 alias vimrc='vi ~/.vimrc'
 alias reload='source ~/.zshrc'
 alias sredis='sh /opt/scripts/redis/redis.sh start'
